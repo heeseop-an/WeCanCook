@@ -13,10 +13,11 @@ while ($row = OCI_Fetch_Array($result, OCI_BOTH)) {
 </p>
 
 <p>
-<a href="groceryStore.php?id=<?= $currPostId ?>">Are you looking for grocery stores to buy these ingredients?</a>
+Are you looking for grocery stores to buy these ingredients?
 </p>
 
 <!-- <?php
+echo"<a href=\"view/groceryStore.php?id={$currPostId}\">".
 "<button class=\"btn btn-secondary\" type=\"button\">Nearby Grocery Stores</button>".
 "</a>";
 ?> -->

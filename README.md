@@ -1,1 +1,3 @@
-WeCanCook is a food discovery and meal kit delivery website. On the website, you can view lifestyle/food posts from select bloggers, as well as meal posts which include instructions and ingredients for those who do not wish to buy our meal kit. The meal kit also contains instructions on how to make meal with the provided ingredients. On the meal post pages, you can add meal kit to shopping cart. On any post, you can also leave comments including a rating, which will be visible to all users. To help with finding the meal posts you're looking for, there are a variety of filtering options from highest rated to searching for ingredients.
+# WeCanCook
+
+A Meal Kit service web app that allows users to order meal kits, find new recipes, and read interesting blogs related to food.

@@ -33,5 +33,4 @@
 </div>
     <?php
     }
-    require('comment.php');
 ?>

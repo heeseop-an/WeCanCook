@@ -13,16 +13,7 @@
 </style>
 <?php
     function getCardView($sql, $model) {
-        require('control/mydb.php');     
-
-        if ($_GET['md'] == "T") {
-            $result = handleRowRequest("SELECT COUNT(*) FROM Comments");
-            $row = oci_fetch_row($result);
-            if ($row[0] == 0) {
-                $sql = "SELECT p.postId, p.title, p.content FROM Post p, MealPosts mp WHERE p.postId = mp.postId";
-            }
-        }
-
+        require('control/mydb.php');
         $result = executePlainSQL($sql);
         ?>
         <div class="row">

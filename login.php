@@ -3,7 +3,7 @@
     require("view/header.html");
     require("control/mydb.php");
 ?>
-<h1>Login</h1>
+
 <form action="" method="POST">
     <p>
         <label for="email">Email:</label>
@@ -14,7 +14,7 @@
         <input type="password" name="password" id="password">
     </p>
     <p>
-        <input type="submit" name="login" value="login">
+        <input type="submit" name="login" value="Login">
     </p>
 </form>
 <div class="error">
